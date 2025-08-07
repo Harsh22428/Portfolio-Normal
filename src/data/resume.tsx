@@ -110,7 +110,7 @@ export const DATA = {
       company: "Freelancer",
       href: "",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Remote",
       title: " Helping Founders Build Fast, Scalable & Stunning Web + Mobile Apps",
       logoUrl: "",
       start: " Sep 2024",
@@ -130,7 +130,7 @@ export const DATA = {
     },
     {
       school: "Vidyut Parishad Inter College Panki Power House, Kanpur Nagar",
-      href: "https://uwaterloo.ca",
+      href: "",
       degree: "Higher Secondary",
       logoUrl: "/vpic.jpg",
       start: "2017",
@@ -141,7 +141,7 @@ export const DATA = {
     {
       title: "Disposable",
       href: "https://luxidevilott.com",
-      dates: "Junly 2025 - Present",
+      dates: "July 2025 - Present",
       active: true,
       description:
         "Disposable Email Service.",
@@ -175,15 +175,14 @@ export const DATA = {
       dates: "May 2025 - June 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "TrueFeedback is a platform where users can provide anonymous feedback to individuals or organizations without revealing their identity. Since anonymous feedback is often the most honest, TrueFeedback helps create a space for genuine, constructive, and unfiltered insights.key points to highlight.",
       technologies: [
         "Next.js",
+        "Next-Auth",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "MongoDB",
+        "Resend Mail",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
         "Magic UI",
       ],
       links: [
@@ -192,38 +191,39 @@ export const DATA = {
           href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Harsh22428/my-app",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video:"https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Job-Portal",
+      href: "https://www.sharmaji.codes",
+      dates: "Nov 2024 - Dec 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "A full-stack platform where [students] can apply for jobs and recruiters can post openings. Implemented secure authentication (JWT), resume uploads, job filtering, and dashboards for both users. Enabled real-time application tracking and admin job/user management",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "React js",
+        "Javascript",
+        "MongoDB",
+        "Node js",
+        "Express js",
+        "Cloudinary",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://www.sharmaji.codes",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Harsh22428/Jobportal",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -231,27 +231,23 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "ICEVET'24",
+      href: "https://icevet.sharmaji.codes",
+      dates: "Sep 2024 - Oct 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        " It is International Conference Departmental website. The main goal of this site is to make a suttle and focused platform so that the participating researchers could easily upload their papers and may even get the support from our side as possible.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React js",
+        "Javascript",
+        "Framer Motion",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "GSAP",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://icevet.sharmaji.codes",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -263,42 +259,40 @@ export const DATA = {
   hackathons: [
     
     {
-      title: "Hack The 6ix",
-      dates: "August 26th - 27th, 2017",
-      location: "Toronto, Ontario",
+      title: "HackTU",
+      dates: "Feb 8th - 9th, 2025",
+      location: "Thapar Institute of Engineering and Technology , Patiala(Punjab)",
       description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
+        " Our team hackquick developed plateform called Infilend , which acts as a bridge between Loan seeker and government .It also helps government to monitor on Loan Providers and seekers.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        "/hacktu.jpg",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/Harsh22428/hackquick",
         },
         {
-          title: "Site",
+          title: "Linkedin",
           icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
+          href: "https://www.linkedin.com/posts/harsh-sharma-6b9824253_experienced-the-thrill-of-hacktu-60-activity-7299801984528728064-2O3r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD6XkO0BIJSSt5ouztJMs9FSnZ4h2XtoypE",
         },
       ],
     },
     {
-      title: "StartHacks I",
-      dates: "March 4th - 5th, 2017",
-      location: "Waterloo, Ontario",
+      title: "Smart India Hackathon(SIH)",
+      dates: "August 23th - 30th, 2024",
+      location: "KNIT Sultanpur",
       description:
-        "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack.",
+        " MEDGUARD project, a comprehensive web application for the Smart India Hackathon 2024. The project aims to streamline hospital operations, enhance patient care, and reduce administrative burdens",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-      win: "1st Place Winner",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        "/sih.png",
+      win: "Internal hackathon winner",
       links: [
         {
           title: "Source (Mobile)",
           icon: <Icons.googleDrive className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-ionic",
+          href: "https://drive.google.com/file/d/1LDLt0mAtP2eb-Vna2A91jirnqhClTnhk/view",
         },
       ],
     },
