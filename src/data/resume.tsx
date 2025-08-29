@@ -167,7 +167,7 @@ export const DATA = {
         },
       ],
       image: "/luxidevilott.png",
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "",
     },
     {
       title: "TrueFeedback",
@@ -198,7 +198,7 @@ export const DATA = {
         },
       ],
       image: "/truefeedback.png",
-      // video:"https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video:"",
     },
     {
       title: "Job-Portal",
@@ -228,7 +228,7 @@ export const DATA = {
         },
       ],
       image: "/jobportal.png",
-      // video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "",
     },
     {
       title: "ICEVET'24",
@@ -252,7 +252,7 @@ export const DATA = {
         },
       ],
       image: "/icevet.png",
-      // video:"https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video:"",
     },
   ],
   hackathons: [
