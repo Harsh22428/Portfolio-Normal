@@ -18,6 +18,7 @@ export const DATA = {
     "Javascript",
     "Typescript",
     "Python",
+    "FAST API",
     "Node.js",
     "Express js",
     "MongoDB",
@@ -29,6 +30,15 @@ export const DATA = {
     "Framer Motion",
     "Tailwind CSS",
     "React Native(with EXPO)",
+    "AWS",
+    "Google Cloud",
+    "Git",
+    "CI/CD",
+    "Agnetic AI",
+    "Langchain",
+    "LLM",
+    "AI/ML",
+
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -70,6 +80,42 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Google Developer Groups, KNIT Sultanpur",
+      href: "https://gdg.community.dev/gdg-on-campus-kamla-nehru-institute-of-technology-sultanpur-india/",
+      badges: [],
+      location: "Sultanpur",
+      title: "GDG On Campus Lead",
+      logoUrl: "/gdg-knit.png",
+      start: "Aug 2025",
+      end: "Present",
+      description:
+        " ",
+    },
+    {
+      company: "Mittal Alliance",
+      href: "https://mittalalliance.com/",
+      badges: [],
+      location: "REMOTE",
+      title: "Backend Developer Intern",
+      logoUrl: "/mittal-alliance.png",
+      start: "Nov 2025",
+      end: "Dec 2025",
+      description:
+        " ",
+    },
+    {
+      company: "The PROEDUCATOR",
+      href: "https://www.hal-india.co.in/",
+      badges: [],
+      location: "REMOTE",
+      title: "SDE Intern",
+      logoUrl: "/the-proeducator.png",
+      start: "June 2025",
+      end: "Sept 2025",
+      description:
+        "",
+    },
     {
       company: "Hindustan Aeronautics Limited",
       href: "https://www.hal-india.co.in/",
@@ -138,6 +184,32 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "StudySurf AI",
+      href: "https://github.com/Harsh22428/StudySurf",
+      dates: "Oct 2025-Nov 2025",
+      active: true,
+      description:
+        "An innovative learning application that transforms educational videos into personalized, multi-format learning experiences using advanced AI. StudySurf adapts content to individual learning styles, accessibility needs, and cultural contexts—making education truly inclusive.",
+      technologies: [
+        "React JS", "FastAPI", "Python", "Google Gemini", "FFmpeg", "Firestore", "ElevenLabs"
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Harsh22428/StudySurf",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Harsh22428/StudySurf",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://github.com/user-attachments/assets/ecbf0671-e31e-436f-aac8-2441b8009bb6",
+    },
     {
       title: "Disposable",
       href: "https://luxidevilott.com",
@@ -257,6 +329,27 @@ export const DATA = {
   ],
   hackathons: [
     
+    {
+      title: "Hack'O Gravity",
+      dates: "Feb 8th - 9th, 2025",
+      location: "KNIT Sultanpur",
+      description:
+        " Our team win this hackathon ,Project is Studysurf, It is an innovative learning application that transforms educational videos into personalized, multi-format learning experiences using advanced AI. StudySurf adapts content to individual learning styles, accessibility needs, and cultural contexts—making education truly inclusive.",
+      image:
+        "/",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Harsh22428/StudySurf",
+        },
+        {
+          title: "Linkedin",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/cdc-knit_hackogravity-hackathon-knitsultanpur-activity-7394009748347613189-7RvK",
+        },
+      ],
+    },
     {
       title: "HackTU",
       dates: "Feb 8th - 9th, 2025",
