@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Developer,Transforming ideas into smart, scalable solutions — across web, mobile, and intelligent systems using AI/ML and Agentic AI.",
   summary:
-    "I’m a Software Developer who turns raw ideas into powerful, real-world products. Whether it's crafting scalable backend systems, designing intuitive frontend interfaces, or building seamless mobile experiences — I bring clean code and clear thinking to every line I write.My playground stretches from web to mobile, with a deep focus on system design, APIs, and performance-first development. I’m passionate about AI/ML and the exciting future of Agentic AI, exploring how intelligent systems can act autonomously and make smart decisions.",
+    "I’m an AI Software Engineer focused on building intelligent, scalable software systems. From backend architecture and APIs to web and mobile applications, I create AI-powered products designed for real-world impact. I’m particularly interested in AI agents and autonomous systems that can reason, automate tasks, and enhance human productivity.",
   avatarUrl: "/me.png",
   skills: [
     "React js",
